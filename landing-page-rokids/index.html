@@ -33,68 +33,53 @@
             font-size: 2.3em;
         }
 
-        .div-1 {
+        .div-botao-alciane {
+            width: 80%;
+            height: 10%;
+            margin: auto;
+        }
+
+        .botao-alciane {
             background-color: rgb(255, 255, 255);
+            border: none;
             box-shadow: 0px 0px 5px;
             border-radius: 40px;
-            width: 90%;
-            height: 60px;
-            text-align: center;
             margin: auto;
-            position: relative;
+            width: 100%;
+            height: 100%;
             cursor: pointer;
+            font-weight: bold;
+            font-size: 15px;
         }
 
-        .div-1:active {
-            background-color: rgb(73, 1, 73);      
+        .botao-alciane:hover {
+            background-color: purple;
+            transition: 0.5s;
+            color: white;
         }
-        
-        .div-2 {
-            background-color: white;
+
+        .div-botao-luciana {
+            width: 80%;
+            height: 10%;
+            margin: auto;
+        }
+
+        .botao-luciana {
+            background-color: rgb(255, 255, 255);
+            border: none;
             box-shadow: 0px 0px 5px;
             border-radius: 40px;
-            width: 90%;
-            height: 60px;
-            text-align: center;
-            margin: auto;
-            margin-top: 20px;
-            position: relative;
-        }
-
-        .div-2:active {
-            background-color: rgb(73, 1, 73);
-        }
-
-        .alciane {
-            margin: auto;
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-        }
-
-        .luciana {
-            margin: auto;
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-        }
-
-
-        a {
-            padding: 15px;
-            padding-left: 100px;
-            padding-right: 100px;
-            text-align: center;
+            width: 100%;
+            height: 100%;
+            cursor: pointer;
             font-weight: bold;
-            text-decoration: none;
-            color: rgb(243, 6, 223);
-            font-size: 1em;
+            font-size: 15px;
         }
 
-        a:active {
-            background-color: rgb(73, 1, 73); 
+        .botao-luciana:hover {
+            background-color: purple;
+            transition: 0.5s;
+            color: white;
         }
 
         img {
@@ -107,19 +92,6 @@
             min-width: 350px;
             max-width: 500px;
         }
-
-        .wpp {
-            width: 40px;
-            float: right;
-            margin: 10px;
-        }
-
-        .wpp-2 {
-            width: 40px;
-            float: right;
-            margin: 10px;
-        }
-
     </style>
 </head>
 <body>
@@ -128,18 +100,16 @@
     </div>
     <main>
         <h1>Consultoras</h1>
-        <div class="div-1">
-            <div class="alciane">
-                <a class="button" href="">Alciane</a>
+            <div class="div-botao-alciane">
+                <a href="https://wa.me/5566992232158">
+                    <button class="botao-alciane">Alciane</button>
+                </a>
             </div>
-            <img class="wpp" src="whatsapp-logo.png" alt="wpp-logo">
-        </div>
-        <div class="div-2">
-            <div class="luciana">
-                <a href="">Luciana</a>
+            <div class="div-botao-luciana">
+                <a href="https://wa.me/5566992232158">
+                    <button class="botao-luciana">luciana</button>
+                </a>
             </div>
-            <img class="wpp-2" src="whatsapp-logo.png" alt="wpp-logo">
-        </div>
     </main>
 </body>
 </html>
