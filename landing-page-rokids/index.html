@@ -23,12 +23,13 @@
             margin-top: 50px;
             width: 70%;
             max-width: 700px;
-            height: 300px;
+            height: 320px;
             border-radius: 40px;
-            box-shadow: 0px 0px 5px;
         }
 
         h1 {
+            color: white;
+            text-shadow: 3px 3px 10px black;
             text-align: center;
             padding-top: 30px;
             font-size: 1.7em;
@@ -57,6 +58,12 @@
             color: white;
         }
 
+        .wpp-icon {
+            width: 30px;
+            float: right;
+        }
+
+
         .botao-alciane:hover {
             background-color: purple;
             transition: 0.5s;
@@ -83,10 +90,42 @@
             color: white;
         }
 
+        .wpp-icon-2 {
+            width: 30px;
+            float: right;
+        }
+
         .botao-luciana:hover {
             background-color: purple;
             transition: 0.5s;
             color: white;
+        }
+
+        .div-botao-site {
+            width: 70%;
+            height: 13%;
+            margin: auto;
+            margin-top: 30px;
+        }
+
+        .botao-site {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            background-color: deeppink;
+            border: none;
+            box-shadow: 0px 0px 5px black;
+            border-radius: 40px;
+            width: 100%;
+            height: 100%;
+            cursor: pointer;
+            font-weight: bold;
+            font-size: 18px;
+            color: white;
+        }
+
+        .carrinho {
+            width: 25px;
+            float: left;
+            margin-left: 5px;
         }
 
         img {
@@ -111,12 +150,26 @@
         <h1>Consultoras</h1>
         <div class="div-botao-alciane">
             <a href="https://wa.me/5566992232158">
-                <button class="botao-alciane">Alciane</button>
+                <button class="botao-alciane">
+                    Alciane
+                    <img src="wpp-icon.png" alt="wpp-icon" class="wpp-icon">
+                </button>
             </a>
         </div>
         <div class="div-botao-luciana">
             <a href="https://wa.me/5566992232158">
-                <button class="botao-luciana">Luciana</button>
+                <button class="botao-luciana">
+                    Luciana
+                    <img src="wpp-icon.png" alt="wpp-icon" class="wpp-icon-2">
+                </button>
+            </a>
+        </div>
+        <div class="div-botao-site">
+            <a href="https://www.rokids.com.br">
+                <button class="botao-site">
+                    Site Rokids
+                    <img src="carrinho.png" alt="carrinho" class="carrinho">
+                </button>
             </a>
         </div>
     </main>
