@@ -39,6 +39,10 @@
             width: 100%;
         }
 
+        a {
+            text-decoration: none;
+        }
+
         .div-botao-alciane {
             width: 70%;
             height: 13%;
@@ -120,8 +124,11 @@
             height: 100%;
             cursor: pointer;
             font-weight: bold;
-            font-size: 18px;
+            font-size: 15px;
             color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
 
         .botao-site:hover {
@@ -130,9 +137,8 @@
         }
 
         .carrinho {
-            width: 25px;
-            padding-left: 10px;
-            float: left;
+            width: 27px;
+            margin-inline: 10px;
         }
 
         img {
@@ -174,8 +180,8 @@
         <div class="div-botao-site">
             <a href="https://www.rokids.com.br">
                 <button class="botao-site">
-                    Comprar pelo Site
                     <img src="carrinho-2.png" alt="carrinho" class="carrinho">
+                    Comprar pelo Site
                 </button>
             </a>
         </div>
