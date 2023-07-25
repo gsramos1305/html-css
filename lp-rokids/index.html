@@ -24,7 +24,8 @@
         main {
             background-color: rgb(223, 223, 223);
             margin: auto;
-            margin-top: 50px;
+            margin-top: 0px;
+            margin-bottom: 50px;
             width: 70%;
             max-width: 400px;
             height: 340px;
@@ -153,6 +154,26 @@
             min-width: 100px;
             max-width: 350px;
         }
+
+        .container-video {
+            width: 100%;
+            margin: 0;
+        }
+
+        .div-video {
+            margin: auto;
+            position: relative;
+            padding-top: 56.25%;
+            max-width: 1080px;
+        }
+
+        .div-video > iframe {
+            position: absolute;
+            top: 5%;
+            left: 5%;
+            width: 90%;
+            height: 90%;
+        }
     </style>
 </head>
 
@@ -187,6 +208,15 @@
             </a>
         </div>
     </main>
+    <div class="container-video">
+        <div class="div-video">
+            <iframe src="https://www.youtube.com/embed/Vvr6hL2R9jw" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen>
+            </iframe>
+        </div>
+    </div>
 </body>
 
 </html>
