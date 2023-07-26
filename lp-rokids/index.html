@@ -30,6 +30,8 @@
             max-width: 400px;
             height: 340px;
             border-radius: 40px;
+            display: flex;
+            flex-direction: column;
         }
 
         h1 {
@@ -114,6 +116,7 @@
             height: 13%;
             margin: auto;
             padding-block: 20px;
+            min-width: 160px;
         }
 
         .botao-site {
@@ -125,11 +128,9 @@
             height: 100%;
             cursor: pointer;
             font-weight: bold;
-            font-size: 15px;
-            color: white;
             display: flex;
-            justify-content: center;
             align-items: center;
+            flex-wrap: nowrap;
         }
 
         .botao-site:hover {
@@ -139,8 +140,23 @@
 
         .carrinho {
             width: 27px;
-            margin-right: 10px;
-            margin-left: -15px;
+            margin: auto;
+            align-self: flex-start;
+        }
+
+        .botao-site > p {
+            font-size: 15px;
+            color: white;
+            font-weight: bold;
+            align-self: center;
+            margin: auto;
+            white-space: nowrap;
+        }
+
+        .botao-site > div {
+            width: 5px;
+            height: 27px;
+            margin: auto;
         }
 
         img {
@@ -203,7 +219,8 @@
             <a href="https://www.rokids.com.br">
                 <button class="botao-site">
                     <img src="carrinho-2.png" alt="carrinho" class="carrinho">
-                    Comprar pelo Site
+                    <p>Comprar pelo Site</p>
+                    <div></div>
                 </button>
             </a>
         </div>
