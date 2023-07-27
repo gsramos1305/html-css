@@ -10,16 +10,23 @@ body {
     background-color: white;
 }
 
-img {
-    margin: auto;
+.container-img {
+    margin: 0;
     width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .div-img {
+    max-width: 400px;
+    width: 100%;
     margin: auto;
     padding: 30px;
-    min-width: 100px;
-    max-width: 350px;
+}
+
+img {
+    margin: auto;
+    width: 100%;
 }
 
 main {
