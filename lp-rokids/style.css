@@ -10,6 +10,10 @@ body {
     background-color: white;
 }
 
+button {
+    cursor: pointer;
+}
+
 .container-img {
     margin: 0;
     width: 100%;
@@ -204,4 +208,20 @@ a {
     width: 150px;
     height: 150px;
     border: 3px solid black;
+}
+
+.produto-botao {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.botao-comprar {
+    margin: auto;
+    background-color: greenyellow;
+    border: 0;
+    border-radius: 10px;
+    padding: 5px 10px;
+    font-weight: 700;
 }
