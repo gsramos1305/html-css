@@ -225,7 +225,7 @@ a {
     justify-content: center;
     margin: auto;
     background-color: deeppink;
-    border: 0;
+    border: none;
     border-radius: 30px;
     padding: 10px;
     font-weight: 700;
